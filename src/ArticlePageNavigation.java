@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ArticlePageNavigation {
 	public static void main(String args[]) {
 
-        System.setProperty("webdriver.chrome.driver","F:\\\\Study Material\\\\6th SEM\\\\Test Automation Lab\\\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","F:\\Study Material\\6th SEM\\Test Automation Lab\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
